@@ -83,7 +83,7 @@ namespace EstudoMedico
 
             foreach (var remedios in med.Pacientes.Where(r => r.Remedios != null))
             {
-                WriteLine($"------ Paciente: {remedios.NomePaciente} ---- {remedios.Remedios}");
+                WriteLine($"------ Paciente: {remedios.NomePaciente} ---- Remédio: {remedios.Remedios}");
             }
 
             ReadLine();
