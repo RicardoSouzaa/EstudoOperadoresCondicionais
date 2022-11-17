@@ -34,7 +34,7 @@ namespace EstudoMedico
                     {
                         ID = 3,
                         NomePaciente="Veronica",
-                        ValorConsulta=350,
+                        ValorConsulta=444,
                         Remedios = "Neosaldina"
                     },
                     new Paciente
@@ -70,6 +70,21 @@ namespace EstudoMedico
 
             //paciente diferente de nulo                                   se remedio = 0
             med.Pacientes?.ForEach(p => WriteLine($"----{p.NomePaciente} - remédios: {p.Remedios ?? "Sem Remédios"} - Histórico {p.Historico}  ----  COnsulta: {p.ValorConsulta:n2}"));
+            WriteLine();
+            WriteLine();
+
+            WriteLine($"Faturamento da Clínica: {med.Pacientes?.Sum(v => v.ValorConsulta):n2}");
+            WriteLine();
+
+            WriteLine($"Quantidade de Internados: {med.Pacientes?.Count(i => i.Internado)}");
+            WriteLine();
+
+            WriteLine($"Pacientes tomando remédio: {med.Pacientes?.Count(r => r.Remedios != null)}");
+
+            foreach (var remedios in med.Pacientes.Where(r => r.Remedios != null))
+            {
+                WriteLine($"------ Paciente: {remedios.NomePaciente} ---- {remedios.Remedios}");
+            }
 
             ReadLine();
         }
