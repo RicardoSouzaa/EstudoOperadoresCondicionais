@@ -1,0 +1,7 @@
+D:\Dev\Ricardo\Testes\EstudoMedico\bin\Debug\EstudoMedico.exe.config
+D:\Dev\Ricardo\Testes\EstudoMedico\bin\Debug\EstudoMedico.exe
+D:\Dev\Ricardo\Testes\EstudoMedico\bin\Debug\EstudoMedico.pdb
+D:\Dev\Ricardo\Testes\EstudoMedico\obj\Debug\EstudoMedico.csproj.AssemblyReference.cache
+D:\Dev\Ricardo\Testes\EstudoMedico\obj\Debug\EstudoMedico.csproj.CoreCompileInputs.cache
+D:\Dev\Ricardo\Testes\EstudoMedico\obj\Debug\EstudoMedico.exe
+D:\Dev\Ricardo\Testes\EstudoMedico\obj\Debug\EstudoMedico.pdb
